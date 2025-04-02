@@ -63,6 +63,7 @@ p {
 
 img {
   border-radius: 4px;
+  margin-top: 100px;
 }
 
 .btn-branding {
@@ -97,7 +98,7 @@ img {
 
 .content {
   margin: 30px;
-  text-align: center;
+
   padding: 0;
 }
 
@@ -123,7 +124,10 @@ img {
 }
 
 .logo {
-  width: 150px;
+  max-width: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 nav a {
