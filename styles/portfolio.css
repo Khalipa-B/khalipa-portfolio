@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #222222;
+  --primary-color: #222222;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #7b7b7b;
@@ -63,12 +63,11 @@ p {
 
 img {
   border-radius: 4px;
-  margin-top: 100px;
 }
 
 .btn-branding {
   display: inline-block;
-  background: var(--branding-color);
+  background: var(--primary-color);
   border-radius: 4px;
   color: white !important;
   font-size: 18px;
@@ -80,12 +79,12 @@ img {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
+  color: var(--primary-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  border: 1px solid var(--branding-color);
+  border: 1px solid var(--primary-color);
 }
 
 .project-description {
@@ -98,7 +97,7 @@ img {
 
 .content {
   margin: 30px;
-
+  text-align: center;
   padding: 0;
 }
 
@@ -124,10 +123,7 @@ img {
 }
 
 .logo {
-  max-width: 100px;
-  position: relative;
-  top: 0;
-  left: 0;
+  width: 150px;
 }
 
 nav a {
@@ -178,12 +174,12 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: var(--branding-color);
+  color: var(--secondary-color);
 }
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
+  color: var(--primary-color);
   background: var(--tertiary-color);
   padding: 10px 14px;
   font-size: 18px;
@@ -193,7 +189,7 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background: var(--branding-color);
+  background: var(--primary-color);
 }
 
 @media (max-width: 960px) {
