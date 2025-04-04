@@ -313,6 +313,19 @@ footer p {
     font-size: 26px;
   }
 
+  img {
+    margin-bottom: 20px;
+  }
+
+  ul.programming-languages-list li {
+    display: block;
+    justify-content: center;
+    font-size: 18px;
+    color: var(--primary-color);
+    list-style: disc;
+    text-align: center;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
@@ -333,5 +346,29 @@ footer p {
   nav a {
     font-size: 11px;
     margin: 5px;
+  }
+}
+
+@media (max-width: 900px) {
+  .programming-languages-list {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    gap: 10px; /* Add spacing between items */
+  }
+
+  .boxes {
+    background-color: var(--tertiary-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px; /* Reduce margin for smaller screens */
+    align-items: center;
+  }
+
+  .box-content {
+    text-align: center; /* Center-align text for better readability */
+    padding: 10px; /* Add padding for spacing */
+    margin: 10px 0; /* Add vertical spacing */
   }
 }
