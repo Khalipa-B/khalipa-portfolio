@@ -409,7 +409,12 @@ footer p {
   }
 
   .content-container {
-    padding: 1px 20px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .content-container a {
+    text-align: center;
   }
 
   .programming-languages-list {
