@@ -43,17 +43,15 @@
     ></script>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
+    <nav class="d-flex justify-content-between">
         <a href="index.html" title="Homepage">
           <img src="Images/kb-logo.png" class="logo" alt="Khalipa Logo" />
         </a>
-        <ul>
+        <ul class="d-flex justify-content-end">
           <li><a href="index.html" title="Homepage">Home</a></li>
-          <li class="active">
-            <a href="about.html" title="About Khalipa">About</a>
-          </li>
+          <li class="active"><a href="about.html" title="About Khalipa">About</a></li>
           <li><a href="work.html" title="Khalipa's work">Work</a></li>
+          <li><a href="education.html" title="Khalipa's education">Education</a></li>
           <li><a href="contact.html" title="Contact Khalipa">Contact</a></li>
         </ul>
       </nav>
@@ -73,7 +71,7 @@
               solutions and contribute to the tech community.
             </p>
 
-            <h2>Interests</h2>
+            <h4>Interests</h4>
 
             <p class="mb-5">
               I am passionate about web development and the ever-evolving world
@@ -87,8 +85,11 @@
               would love to create opportunities for young South African youth
               in tech.
             </p>
-            <a href="work.html" class="btn btn-branding" title="Khalipa's work"
-              >See my projects</a
+            <a
+              href="education.html"
+              class="btn btn-branding mb-5"
+              title="Khalipa's work"
+              >My education</a
             >
           </div>
         </div>
@@ -96,16 +97,41 @@
           <img
             src="Images/khalipa.jpg"
             alt="Khalipa"
-            class="img-fluid"
+            class="img-fluid mt-5 rounded"
             alt="Khalipa's photo"
           />
         </div>
       </div>
+
+      <div class="boxes">
+          <div class="box-header">
+            <h2 class="text-center mb-5 mt-2">Programming Languages</h2>
+            <ul class="programming-languages-list d-flex justify-content-evenly">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+
+
       <footer class="container">
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
             <h4>Work Inquiry</h4>
             <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="src/Khalipa Baba CV.pdf"
+              class="btn btn-branding mt-3"
+              title="Khalipa's CV"
+              >Download my CV</a
+            >
           </div>
           <div>
             <a
