@@ -300,7 +300,7 @@ footer p {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 20px;
+    font-size: 10px;
     line-height: 1;
   }
 
@@ -347,9 +347,26 @@ footer p {
     font-size: 11px;
     margin: 5px;
   }
-}
 
-@media (max-width: 900px) {
+  p {
+    padding: 20px 0;
+  }
+
+  .project-description {
+    margin: 20px;
+  }
+
+  .content h1 {
+    font-size: 23px;
+    line-height: 28px;
+    margin: 38px;
+    padding: 8px;
+  }
+
+  .content-container {
+    padding: 1px 20px;
+  }
+
   .programming-languages-list {
     display: flex;
     flex-direction: column; /* Stack items vertically */
