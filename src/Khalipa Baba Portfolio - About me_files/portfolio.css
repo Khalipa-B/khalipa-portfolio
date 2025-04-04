@@ -299,11 +299,6 @@ footer p {
 }
 
 @media (max-width: 960px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
   h1 {
     font-size: 50px;
     line-height: 1;
@@ -325,11 +320,6 @@ footer p {
     margin-bottom: 20px;
   }
 
-  a {
-    display: block;
-    justify-content: center;
-  }
-
   ul.programming-languages-list li {
     display: block;
     justify-content: center;
@@ -337,22 +327,6 @@ footer p {
     color: var(--primary-color);
     list-style: disc;
     text-align: center;
-  }
-
-  .hero {
-    padding: 33px 20px;
-  }
-
-  .hero h1 {
-    font-size: 72px;
-    font-weight: 700;
-    color: white;
-  }
-
-  .hero h2 {
-    font-size: 19px;
-    line-height: 1.5;
-    margin-bottom: 2rem !important;
   }
 
   .project-description {
@@ -379,14 +353,6 @@ footer p {
 
   p {
     padding: 0px 0;
-    font-size: 17px;
-    line-height: 20px;
-    margin: 2rem !important;
-    text-align: center;
-  }
-
-  .hero p {
-    font-size: 30px;
   }
 
   .project-description {
@@ -395,17 +361,9 @@ footer p {
 
   .content h1 {
     font-size: 40px;
-    line-height: 43px;
-    margin: 14px;
-    padding: 12px;
-  }
-
-  .content h2 {
-    line-height: 1.5;
-  }
-
-  .content p {
-    text-align: center;
+    line-height: 4px;
+    margin: 30px;
+    padding: 5px;
   }
 
   .content-container {
